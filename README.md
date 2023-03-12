@@ -15,6 +15,19 @@
 
 # vector
 
+功能：
+
+&emsp;&emsp;vector数据结构和数组非常相似，也称为【单端数组】（后面学的deque是双端数组）。
+
+vector与普通数组的区别：
+
+&emsp;&emsp;不同之处是数组是静态空间，而vector可以动态扩展
+
+动态扩展：
+
+&emsp;&emsp;并不是在源空间之后续接新空间，而是找更大的内存空间，然后将原数据拷贝新空间，释放原空间。
+![Image test](./pic/vector_0.png)
+
 ## 1.for_each_vector
 ### 1.1_vector_int.cpp
 
