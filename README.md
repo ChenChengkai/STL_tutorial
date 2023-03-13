@@ -10,6 +10,15 @@
   - [6.vector\_read\_write.cpp](#6vector_read_writecpp)
   - [7.vector\_swap.cpp](#7vector_swapcpp)
   - [8.vector\_reserve.cpp](#8vector_reservecpp)
+- [String](#string)
+  - [1.string\_construct.cpp](#1string_constructcpp)
+  - [2.string\_assign.cpp](#2string_assigncpp)
+  - [3.string\_append.cpp](#3string_appendcpp)
+  - [4.string\_find\_replace.cpp](#4string_find_replacecpp)
+  - [5.string\_compare.cpp](#5string_comparecpp)
+  - [6.string\_read\_write.cpp](#6string_read_writecpp)
+  - [7.string\_insert\_erase.cpp](#7string_insert_erasecpp)
+  - [8.string\_substr.cpp](#8string_substrcpp)
 
 &emsp;&emsp;黑马程序员的STL学习记录。
 
@@ -74,3 +83,54 @@ vector与普通数组的区别：
 ## 8.vector_reserve.cpp
 
 &emsp;&emsp;reserve函数减少vector在动态扩展容量时的扩展次数。
+
+
+# String
+
+## 1.string_construct.cpp
+
+&emsp;&emsp;string类的构造：
+
+- string();创建一个空的字符串，例如string str；
+- string(const char* s);使用字符串s初始化；
+- string(const string& str);使用一个string对象初始化另一个string对象
+- string(int n,char c); 使用n个字符c初始化
+
+## 2.string_assign.cpp
+
+&emsp;&emsp;string类的赋值：
+
+![Image test](./pic/string_2.png)
+
+
+## 3.string_append.cpp
+
+&emsp;&emsp;string类的拼接，在末尾添加字符串：
+
+![Image test](./pic/string_3.png)
+
+## 4.string_find_replace.cpp
+
+&emsp;&emsp;string类的查找和替换字符串：
+![Image test](./pic/string_4.png)
+
+## 5.string_compare.cpp
+
+&emsp;&emsp;string类的字符串比较。
+
+
+## 6.string_read_write.cpp
+
+- char& operator[](int n)//通过[]方式取字符
+- char& at(int n)//通过at方法获取字符
+
+
+## 7.string_insert_erase.cpp
+
+&emsp;&emsp;string插入和删除：
+
+![Image test](./pic/string_7.png)
+
+## 8.string_substr.cpp
+
+&emsp;&emsp;string子字符串使用。
