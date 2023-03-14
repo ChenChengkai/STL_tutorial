@@ -19,6 +19,14 @@
   - [6.string\_read\_write.cpp](#6string_read_writecpp)
   - [7.string\_insert\_erase.cpp](#7string_insert_erasecpp)
   - [8.string\_substr.cpp](#8string_substrcpp)
+- [deque](#deque)
+  - [1.deque\_construct.cpp](#1deque_constructcpp)
+  - [2.deque\_assign.cpp](#2deque_assigncpp)
+  - [3.deque\_size.cpp](#3deque_sizecpp)
+  - [4.deque\_insert\_erase.cpp](#4deque_insert_erasecpp)
+  - [5.deque\_read\_write.cpp](#5deque_read_writecpp)
+  - [6.deque\_sort.cpp](#6deque_sortcpp)
+  - [7.deque\_demo.cpp](#7deque_democpp)
 
 &emsp;&emsp;黑马程序员的STL学习记录。
 
@@ -134,3 +142,51 @@ vector与普通数组的区别：
 ## 8.string_substr.cpp
 
 &emsp;&emsp;string子字符串使用。
+
+
+# deque
+
+![Image test](./pic/deque_0.png)
+
+## 1.deque_construct.cpp
+
+&emsp;&emsp;四种构造方式：
+
+![Image test](./pic/deque_1.png)
+
+## 2.deque_assign.cpp
+
+&emsp;&emsp;三种赋值方式：
+
+![Image test](./pic/deque_2.png)
+
+## 3.deque_size.cpp
+
+&emsp;&emsp;关于大小的操作：
+
+![Image test](./pic/deque_3.png)
+
+## 4.deque_insert_erase.cpp
+
+![Image test](./pic/deque_4.png)
+
+## 5.deque_read_write.cpp
+
+![Image test](./pic/deque_5.png)
+
+## 6.deque_sort.cpp
+
+&emsp;&emsp;排序操作！
+
+## 7.deque_demo.cpp
+
+&emsp;&emsp;关于deque的一个demo：
+
+有5名选手，ABCDE,10个评委对每一名选手进行打分，去除最高分，去除最低分，取平均分。
+
+
+1. 创建五名选手，放到vector中；
+2. 遍历vector容器，取出来每一个选手，执行for循环，可以把10个评分分别存到deque中；
+3. sort算法对deque容器中分数进行排序，去除最高分和最低分；
+4. deque容器遍历一遍，累加总分；
+5. 获取平均分；
