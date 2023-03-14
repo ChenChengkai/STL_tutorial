@@ -27,6 +27,8 @@
   - [5.deque\_read\_write.cpp](#5deque_read_writecpp)
   - [6.deque\_sort.cpp](#6deque_sortcpp)
   - [7.deque\_demo.cpp](#7deque_democpp)
+- [stack](#stack)
+  - [1.stack\_test.cpp](#1stack_testcpp)
 
 &emsp;&emsp;黑马程序员的STL学习记录。
 
@@ -190,3 +192,11 @@ vector与普通数组的区别：
 3. sort算法对deque容器中分数进行排序，去除最高分和最低分；
 4. deque容器遍历一遍，累加总分；
 5. 获取平均分；
+
+# stack
+
+![Image test](./pic/stack_0.png)
+
+## 1.stack_test.cpp
+
+![Image test](./pic/stack_1.png)
