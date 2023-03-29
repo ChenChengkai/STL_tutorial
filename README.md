@@ -27,6 +27,14 @@
   - [5.deque\_read\_write.cpp](#5deque_read_writecpp)
   - [6.deque\_sort.cpp](#6deque_sortcpp)
   - [7.deque\_demo.cpp](#7deque_democpp)
+- [list](#list)
+  - [1.list\_construct.cpp](#1list_constructcpp)
+  - [2.list\_assign\_swap.cpp](#2list_assign_swapcpp)
+  - [3.list\_size.cpp](#3list_sizecpp)
+  - [4.list\_insert\_erase.cpp](#4list_insert_erasecpp)
+  - [5.list\_front\_back.cpp](#5list_front_backcpp)
+  - [6.list\_reverse\_sort.cpp](#6list_reverse_sortcpp)
+  - [7.list\_demo.cpp](#7list_democpp)
 - [stack](#stack)
   - [1.stack\_test.cpp](#1stack_testcpp)
 
@@ -192,6 +200,48 @@ vector与普通数组的区别：
 3. sort算法对deque容器中分数进行排序，去除最高分和最低分；
 4. deque容器遍历一遍，累加总分；
 5. 获取平均分；
+
+
+# list 
+
+功能：将数据进行链式存储
+链表（list）是一种物理存储单元上非连续的存储结构，数据元素的逻辑顺序是通过链表中的指针链接实现的。
+
+链表的组成：链表由一系列的结点组成。
+
+结点的组成：一个存储数据元素的数据域，另一个是存储下一个结点地址的指针域。
+
+STL中的链表是一个双向循环链表。
+
+链表的优点：
+可以对任意的位置进行快速插入删除元素！动态分配，不会存在内存浪费和溢出！
+
+链表的缺点：
+容器的遍历速度没有数组快！
+![Image test](./pic/list_0_1.PNG)
+
+STL中的链表是一个双向循环链表！
+
+![Image test](./pic/list_0_2.png)
+
+## 1.list_construct.cpp
+![Image test](./pic/list_1_1.PNG)
+
+## 2.list_assign_swap.cpp
+![Image test](./pic/list_2_1.PNG)
+## 3.list_size.cpp
+![Image test](./pic/list_3_1.PNG)
+## 4.list_insert_erase.cpp
+![Image test](./pic/list_4_1.PNG)
+
+## 5.list_front_back.cpp
+&emsp;&emsp;list数据存取，取front和back。
+## 6.list_reverse_sort.cpp
+&emsp;&emsp;list反转和排序功能；
+
+## 7.list_demo.cpp
+案例描述：将Person自定义数据类型进行排序，Person中属性有姓名、年龄、身高。排序优先级为：年龄升序、身高降序。
+
 
 # stack
 
